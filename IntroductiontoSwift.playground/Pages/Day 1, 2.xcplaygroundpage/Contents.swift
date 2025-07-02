@@ -40,3 +40,36 @@ print(counter)
 
 let number = 120
 print(number.isMultiple(of: 3))
+
+let goodDogs = true
+var gameOver = false
+
+print( gameOver)
+gameOver.toggle()
+
+print(gameOver)
+
+let firstPart = "Hello, "
+let secondPart = "world!"
+let greeting = firstPart + secondPart
+
+print(greeting)
+
+// string interpolation
+
+let name = "Taylor"
+let age = 26
+let message = "Hello, my name is \(name) and I'm \(age) years old."
+print(message)
+
+// checkpoint 1
+
+let celsius = 10
+
+let fahrenheit = (celsius * 9)/5 + 32
+let fahrenheit2 = "\(fahrenheit)°F"
+
+print(fahrenheit2)
+
+
+
